@@ -1,11 +1,9 @@
+import java.util.ArrayList;
+
 public class Persona {
 	protected String nombre;
 	protected String rut;
-
-	public Persona(String nombre, String rut) {
-		this.nombre = nombre;
-		this.rut = rut;
-	}
+	public ArrayList<Gusto> gustos = new ArrayList<Gusto>();
 
 	public String getNombre() {
 		return this.nombre;
