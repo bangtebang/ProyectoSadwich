@@ -3,6 +3,10 @@ package YourSandwich.YourSandwichd;
 public abstract class Carne extends Ingredientes {
 	protected String color;
 
+	public Carne(String nombre) {
+		super(nombre);
+	}
+
 	public String getTipo() {
 		throw new UnsupportedOperationException();
 	}
