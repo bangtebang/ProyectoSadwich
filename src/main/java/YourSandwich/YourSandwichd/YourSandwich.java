@@ -1,7 +1,6 @@
 package YourSandwich.YourSandwichd;
-
 import java.util.ArrayList;
-import YourSandwich.YourSandwichd.Sandwich;
+import java.util.List;
 
 public class YourSandwich {
 	private String usuarios;
@@ -34,18 +33,41 @@ public class YourSandwich {
 	}
 
 	public void combinarSandwich() {
-		throw new UnsupportedOperationException();
+		// Implementación básica para combinar el sandwich
+		System.out.println("Combinando el sandwich: " + sandwich);
+
+		// Llamar al método combinarSandwich de la clase CombinadorSandwich
+		CombinadorSandwich combinador = new CombinadorSandwich(parseIngredientes());
+		combinador.combinarSandwich();
 	}
 
-	public Usuario agregarUsuario(Usuario usuario) {
-		throw new UnsupportedOperationException();
+	private List<String> parseIngredientes() {
+		// Aquí puedes implementar la lógica para convertir la cadena de ingredientes en una lista de ingredientes separados
+		// Por simplicidad, asumamos que los ingredientes están separados por comas
+		String[] ingredientesArray = ingredientes.split(",");
+		List<String> ingredientesList = new ArrayList<>();
+
+		for (String ingrediente : ingredientesArray) {
+			ingredientesList.add(ingrediente.trim());
+		}
+
+		return ingredientesList;
+	}
+
+	public void agregarUsuario(Usuario usuario) {
+		// Implementación básica para agregar un usuario a la lista de usuarios
+		System.out.println("Agregando usuario: " + usuario.getNombre());
+		// Aquí podrías añadir la lógica necesaria para almacenar el usuario en una lista, base de datos, etc.
 	}
 
 	public void mostrarIngredientes() {
-		throw new UnsupportedOperationException();
+		// Implementación básica para mostrar los ingredientes del sandwich
+		System.out.println("Ingredientes del sandwich: " + ingredientes);
 	}
 
 	public YourSandwich(String usuarios, String ingredientes, String sandwich) {
-		throw new UnsupportedOperationException();
+		this.usuarios = usuarios;
+		this.ingredientes = ingredientes;
+		this.sandwich = sandwich;
 	}
 }
