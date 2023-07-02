@@ -3,6 +3,10 @@ package YourSandwich.YourSandwichd;
 public abstract class Rojas extends Carne {
 	protected String colorRojo;
 
+	public Rojas(String nombre) {
+		super(nombre);
+	}
+
 	public String getColorRojo() {
 		return this.colorRojo;
 	}
