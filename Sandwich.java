@@ -1,13 +1,25 @@
-import java.util.List;
+package org.example.YourSandwich.YourSandwich;
+
+import java.util.ArrayList;
 
 public class Sandwich {
-	private List<Gusto> ingredientes;
+	public ArrayList<Ingredientes> ingredientes = new ArrayList<Ingredientes>();
+	public Sandwich() {
+		this.ingredientes = new ArrayList<>();
+	}
+	public ArrayList<Ingredientes> getIngredientes(){
+		return this.ingredientes;
+	}
 
-	public List<Gusto> getIngredientes() {
+	public void setIngredientes(ArrayList<Ingredientes> ingredientes) {
+		this.ingredientes = ingredientes;
+	}
+
+	public void crearSandwichPersonalizado() {
 		throw new UnsupportedOperationException();
 	}
 
-	public void setIngredientes(List<Gusto> ingredientes) {
+	public void crearSandwichAleatorio() {
 		throw new UnsupportedOperationException();
 	}
 }
