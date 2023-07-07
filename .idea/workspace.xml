@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dddcdfbf-8e54-4736-9a23-a2e916c59b2b" name="Changes" comment="tercer commit : de clases e interface grafica aun falta algunas modificaciones para que funcione correctamente">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IngredientesFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegistroUsuarioForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sandwich.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SandwichFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Usuario.java" beforeDir="false" />
-    </list>
+    <list default="true" id="dddcdfbf-8e54-4736-9a23-a2e916c59b2b" name="Changes" comment="commit con todas las clases para el master" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +19,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3a1aa144-eeae-4f8a-ae19-322ef1229e86" />
+        <option name="url" value="https://github.com/bangtebang/ProyectoSadwich.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +60,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="YourSandwich.Main" />
-      <module name="ProyectoSandwich" />
+      <module name="YourSandwich" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688589648801</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit con todas las clases para el master">
+      <created>1688708087895</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688708087895</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit con todas las clases para el master">
+      <created>1688708176584</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688708176584</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +137,7 @@
     <MESSAGE value="primer commit de esteban" />
     <MESSAGE value="segundo commit : subo interface grafica" />
     <MESSAGE value="tercer commit : de clases e interface grafica aun falta algunas modificaciones para que funcione correctamente" />
-    <option name="LAST_COMMIT_MESSAGE" value="tercer commit : de clases e interface grafica aun falta algunas modificaciones para que funcione correctamente" />
+    <MESSAGE value="commit con todas las clases para el master" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit con todas las clases para el master" />
   </component>
 </project>
