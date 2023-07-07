@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dddcdfbf-8e54-4736-9a23-a2e916c59b2b" name="Changes" comment="segundo commit : subo interface grafica">
+    <list default="true" id="dddcdfbf-8e54-4736-9a23-a2e916c59b2b" name="Changes" comment="tercer commit : de clases e interface grafica aun falta algunas modificaciones para que funcione correctamente">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IngredientesFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegistroUsuarioForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sandwich.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SandwichFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Usuario.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +45,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/esteb/IdeaProjects/ProyectoSandwich"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/esteb/IdeaProjects/ProyectoSandwich&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="YourSandwich.Main" />
       <module name="ProyectoSandwich" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,13 +97,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686545680135</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tercer commit : de clases e interface grafica aun falta algunas modificaciones para que funcione correctamente">
+      <created>1688336683496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688336683496</updated>
+    </task>
+    <task id="LOCAL-00005" summary="tercer commit : de clases e interface grafica aun falta algunas modificaciones para que funcione correctamente">
+      <created>1688589648801</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688589648801</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer commit" />
     <MESSAGE value="primer commit de esteban" />
     <MESSAGE value="segundo commit : subo interface grafica" />
-    <option name="LAST_COMMIT_MESSAGE" value="segundo commit : subo interface grafica" />
+    <MESSAGE value="tercer commit : de clases e interface grafica aun falta algunas modificaciones para que funcione correctamente" />
+    <option name="LAST_COMMIT_MESSAGE" value="tercer commit : de clases e interface grafica aun falta algunas modificaciones para que funcione correctamente" />
   </component>
 </project>

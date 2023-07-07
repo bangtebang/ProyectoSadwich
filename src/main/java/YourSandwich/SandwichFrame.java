@@ -1,3 +1,5 @@
+package YourSandwich;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -22,7 +24,7 @@ public class SandwichFrame extends JFrame {
     private String generarTextoSandwich(Sandwich sandwich) {
         StringBuilder sb = new StringBuilder();
         sb.append("Pan - ");
-        for (String ingrediente : sandwich.getIngredientes()) {
+        for (Ingredientes ingrediente : sandwich.getIngredientes()) {
             sb.append(ingrediente).append(" - ");
         }
         sb.append("Pan");
